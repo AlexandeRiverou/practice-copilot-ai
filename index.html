@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#112a32" />
+    <title>Christmas Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="countdown-card" aria-labelledby="page-title">
+        <div class="card-content">
+          <div class="eyebrow">
+            <span class="holly-dot" aria-hidden="true"></span>
+            The most wonderful time of the year
+          </div>
+
+          <h1 id="page-title">Christmas is<br /><em>coming.</em></h1>
+          <p class="intro">
+            Make a little room for magic. Here’s exactly how long until the
+            gifts, gatherings, and good cheer begin.
+          </p>
+
+          <div class="countdown" aria-label="Time remaining until Christmas">
+            <div class="time-unit">
+              <strong id="days">—</strong>
+              <span>days</span>
+            </div>
+            <div class="divider" aria-hidden="true">:</div>
+            <div class="time-unit">
+              <strong id="hours">—</strong>
+              <span>hours</span>
+            </div>
+            <div class="divider" aria-hidden="true">:</div>
+            <div class="time-unit">
+              <strong id="minutes">—</strong>
+              <span>minutes</span>
+            </div>
+            <div class="divider" aria-hidden="true">:</div>
+            <div class="time-unit">
+              <strong id="seconds">—</strong>
+              <span>seconds</span>
+            </div>
+          </div>
+
+          <p class="date-line">
+            <span class="date-icon" aria-hidden="true">✦</span>
+            <span id="target-date">December 25, 2026</span>
+            <span class="date-icon" aria-hidden="true">✦</span>
+          </p>
+        </div>
+
+        <div class="art-panel" aria-hidden="true">
+          <div class="moon"></div>
+          <div class="star star-one"></div>
+          <div class="star star-two"></div>
+          <div class="star star-three"></div>
+          <div class="snow snow-one"></div>
+          <div class="snow snow-two"></div>
+          <div class="snow snow-three"></div>
+          <div class="tree tree-back">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="tree tree-front">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="tree-trunk"></div>
+          <div class="gift gift-red"><i></i></div>
+          <div class="gift gift-gold"><i></i></div>
+          <div class="ground"></div>
+          <div class="art-caption">Est. since <b>25.12</b></div>
+        </div>
+      </section>
+      <footer>Count the moments, not just the days <span aria-hidden="true">♥</span></footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
